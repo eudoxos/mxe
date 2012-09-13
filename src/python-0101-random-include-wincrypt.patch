@@ -1,0 +1,10 @@
+--- a/Python/random.c	2012-09-13 12:58:22.434799976 +0200
++++ b/Python/random.c	2012-09-13 12:58:29.902799727 +0200
+@@ -1,6 +1,7 @@
+ #include "Python.h"
+ #ifdef MS_WINDOWS
+ #include <windows.h>
++#include <wincrypt.h>
+ #else
+ #include <fcntl.h>
+ #endif

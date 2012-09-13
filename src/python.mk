@@ -52,7 +52,7 @@ define $(PKG)_BUILD
         PKG_CONFIG='$(PREFIX)/bin/$(TARGET)-pkg-config' \
         CC='$(TARGET)-gcc' \
         CXX='$(TARGET)-g++' \
-        AR='$(TARGET)-ar rcu' \
+        AR='$(TARGET)-ar' \
         RANLIB='$(TARGET)-ranlib' \
         STRIP='$(TARGET)-strip --strip-unneeded' \
         LD='$(TARGET)-ld' \
